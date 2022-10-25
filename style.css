@@ -29,20 +29,41 @@ body {
     justify-content: center;
 }
 
-.input,
-.submit {
+.form .pagar {
     margin: 5px;
     border-radius: 3px;
     border: 1px solid #000;
 }
 
-.input {
-    width: 45vh;
+.form .input {
     border-radius: 17px;
+    width: 45vh;
+    border: 1px solid #000;
+    outline: none;
 }
 
-.submit:hover,
+.pagar:hover,
 .input:hover {
+    color: #fff;
+    background-color: #000;
+    transition: 0.5s;
+}
+
+.form .info {
+    display: none;
+    width: 101.5%;
+    background: #f38780;
+}
+
+.info h3 {
+    text-align: center;
+}
+
+h4 a {
+    color: rgb(255, 0, 0);
+}
+
+h4 a:hover {
     color: #fff;
     background-color: #000;
     transition: 0.5s;

@@ -1,32 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sp">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 1</title>
+    <title>Ejercicio 2</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
 </head>
 
 <body>
     <div class="container">
-        <h1>1. Realiza un programa en Python, que pida números mientras no se ingrese uno negativo. Al final, se
-            debe mostrar la suma de los números ingresados.</h1>
-
-        <h2>Ingrese los números a sumar ↓</h2>
+        <h1>Servicio de Compras</h1>
 
         <form id="form" class="form">
-            <input id="dato" class="input" type="text" placeholder="">
+            <h2>Ingrese el precio de las compras ↓</h2>
+
+            <input id="dato" class="input" type="text" placeholder="$">
+            <div class="info"></div>
+
+            <div class="info" id="info">
+                <h3> <mark>Recibo🧾</mark></h3>
+                <h3 id="resultado"></h3>
+                <h4><a href="index.html">Cerrar</a></h4>
+            </div>
 
             <div class="botones">
-                <button class="submit" type="submit">Sumar</button>
-                <input class="submit" type="submit" value="Limpiar" name="Limpiar">
+                <button id="boton" class="pagar" type="submit">Pagar</button>
             </div>
         </form>
-
-        <h3 id="resultado">Resultado: </h3>
 
     </div>
 </body>
